@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Boutique</title>
+    <!-- Ajoutez vos styles CSS ici -->
+    <style>
+     body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product p {
+    color: #555;
+}
+
+.product button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Votre Boutique</h1>
+        <a href="index.html">Rechercher des produits</a>
+    </header>
+
+    <section>
+        <div class="product">
+            <a href="product.html"> <!-- Add a link to the product details page -->
+            <img src="product1.jpg" alt="Product 1">
+            <h2>Product 1</h2>
+            <p>Description du produit 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>$19.99</p>
+            <button>Ajouter au panier</button>
+        </div>
+
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <h2>Product 2</h2>
+            <p>Description du produit 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>$29.99</p>
+            <button>Ajouter au panier</button>
+        </div>
+
+        <!-- Ajoutez d'autres entrées de produit au besoin -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Votre Boutique. Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>
